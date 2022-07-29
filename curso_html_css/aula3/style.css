@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.grid .col {
+    display: block;
+    width: 300px;
+    height: 300px;
+    background: rgba(51, 153, 58);
+    margin: 20px;
+    float: left;
+}
+
+p {
+    clear: both;
+}

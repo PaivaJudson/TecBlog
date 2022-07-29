@@ -1,0 +1,14 @@
+#cabecalho {
+    border: 1px solid red;
+}
+
+.noticia {
+    background-color: gray;
+    padding: 10px;
+}
+
+.titulo {
+    border: 1px solid red;
+    margin: 0px;
+    text-transform: capitalize;
+}

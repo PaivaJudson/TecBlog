@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    background-color: yellow;
+    height: 500px;
+    gap: 30px;
+}
+
+.flex-item {
+    width: 100%;
+    background-color: red;
+    margin: 10px;
+}
