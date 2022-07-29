@@ -13,6 +13,9 @@ body {
     background-color: #fff;
     border-bottom: 1px solid #d8d8d8;
     height: 45px;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 #area {
@@ -22,7 +25,7 @@ body {
 
 #area-principal {
     width: 720px;
-    margin: 10px auto;
+    margin: 55px auto;
 }
 
 #logo {
